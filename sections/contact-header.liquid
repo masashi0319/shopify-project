@@ -1,0 +1,16 @@
+<div class="subpage_bg_img d-flex justify-content-center align-items-center position-relative" style="background-image: url('{{section.settings.contact_header_image | img_url: '1920x'}}');">
+  <h2 class="f36 h2-content">CONTACT</h2>
+</div>
+
+{% schema %}
+{
+	"name": "Contact Header Image",
+	"settings": [
+		{
+			"type": "image_picker",
+			"id": "contact_header_image",
+			"label": "Contact Header Image"
+		}
+	]
+}
+{% endschema %}
