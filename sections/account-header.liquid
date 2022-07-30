@@ -1,0 +1,16 @@
+<div class="subpage_bg_img d-flex justify-content-center align-items-center position-relative" style="background-image: url('{{section.settings.account_header_image | img_url: '1920x'}}'); background-size: cover;background-repeat: no-repeat;background-position: center 30%;width: 100%;height: 300px;">
+  <h2 class="f36 position-relative pt-3 pb-5">ACCOUNT</h2>
+</div>
+
+{% schema %}
+{
+  "name": "Account Header Image",
+  "settings": [
+    {
+         "type": "image_picker",
+         "id": "account_header_image",
+         "label": "Account Header Image"
+    }
+  ]
+}
+{% endschema %}
