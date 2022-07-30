@@ -1,0 +1,16 @@
+<div class="subpage_bg_img d-flex justify-content-center align-items-center position-relative" style="background-image: url('{{section.settings.blog_header_image | img_url: '1920x'}}'); background-size: cover;background-repeat: no-repeat;background-position: center center;width: 100%;">
+  <h2 class="f36 position-relative pt-3 pb-5">BLOG</h2>
+</div>
+
+{% schema %}
+{
+    "name": "Blog Header Image",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "blog_header_image",
+        "label": "Blog Header Image"
+      }
+    ]
+}
+{% endschema %}
